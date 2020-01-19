@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+
+namespace ExoQueteDictionnaire
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary<char,string> englishDictionary=new Dictionary<char,string>();
+            englishDictionary['a'] = "alphabet";
+            englishDictionary['b'] = "basic";
+            englishDictionary['c'] = "car";
+            englishDictionary.Remove('c');
+        }
+    }
+}
